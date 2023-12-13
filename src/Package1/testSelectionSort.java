@@ -34,7 +34,7 @@ public class testSelectionSort {
 
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
-
+// fourth comment
         assertArrayEquals(sortedArr, arr);
     }
     
@@ -42,7 +42,7 @@ public class testSelectionSort {
     public void testDuplicates() {
         int[] arr = {2, 2, 3, 5, 3};
         int[] sortedArr = {2, 2, 3, 3, 5};
-
+// third comment
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
 
