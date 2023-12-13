@@ -9,7 +9,7 @@ public class testSelectionSort {
     public void testPositive() {
         int[] arr = {9, 8, 7, 10, 2};
         int[] sortedArr = {2, 7, 8, 9, 10};
-
+//first comment
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
 
@@ -23,7 +23,7 @@ public class testSelectionSort {
 
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
-
+// second comment
         assertArrayEquals(sortedArr, arr);
     }
     
